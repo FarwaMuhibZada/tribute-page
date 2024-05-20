@@ -27,7 +27,6 @@ header {
   padding: 30px 20px;
   flex-wrap: wrap;
   border-bottom: 1px solid rgb(112, 72, 118);
-
 }
 
 header h1 {
@@ -40,7 +39,6 @@ header h1 {
   padding-left: 5px;
   text-decoration: none;
   color: aqua;
-
 }
 
 ul {
@@ -48,7 +46,7 @@ ul {
   list-style: none;
 }
 
-ul>li {
+ul >li {
   padding-left: 15px;
 }
 
@@ -78,7 +76,6 @@ ul li a:hover {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
-
 }
 
 #img-caption {
@@ -87,8 +84,7 @@ ul li a:hover {
   color: rgb(102, 99, 99);
 }
 
-#heading-2{
-  
+#heading-2 { 
   text-align: center;
   padding: 20px;
 }
@@ -115,7 +111,6 @@ footer {
   justify-content: space-between;
 }
 
-
 footer ul {
   list-style: none;
   display: inline;
@@ -124,7 +119,4 @@ footer ul {
 #tribute-link {
   color: aqua;
 }
-  
-
-
-
+ 
