@@ -66,11 +66,10 @@ ul li a:hover {
 }
 
 #img-div {
-  width: 800px;
+  width: 900px;
   margin: 30px auto;
   background-color: rgb(43, 213, 213) !important;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 50px;
 }
 
 #image {
@@ -78,11 +77,14 @@ ul li a:hover {
   height: auto;
   display: block;
   margin: 0 auto;
+  border-radius: 10px;
+
 }
 
 #img-caption {
   display: block;
   padding: 8px;
+  color: rgb(102, 99, 99);
 }
 
 #heading-2{
