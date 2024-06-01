@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aqua;
+}
+
+#main {
+  background-color: rgb(65, 17, 84);
+  margin: 20px 20px;
+  padding: 5px;
+  color: aliceblue;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgb(112, 72, 118);
+}
+
+header h1 {
+  color: rgb(248, 242, 249);
+}
+
+#brand-name {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  padding-left: 5px;
+  text-decoration: none;
+  color: aqua;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul > li {
+  padding-left: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  background-color: rgb(150, 97, 162);
+  border-radius: 30px;
+}
+
+#img-div {
+  width: 900px;
+  margin: 30px auto;
+  background-color: rgb(43, 213, 213) !important;
+  padding: 50px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#img-caption {
+  display: block;
+  padding: 8px;
+  color: rgb(102, 99, 99);
+}
+
+#heading-2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#tribute-info {
+  width: 800px;
+  font-size: 1.4rem;
+  margin: 100px auto;
+  padding: 5px;
+  text-align: justify;
+}
+
+#tribute-info strong {
+  color: aqua;
+}
+
+#tribute-info p {
+  line-height: normal;
+}
+
+footer {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  display: inline;
+}
+
+#tribute-link {
+  color: aqua;
+}
